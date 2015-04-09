@@ -1,0 +1,88 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------THIS IS WHERE MY CSS STARTS---------------*/
+body {
+    width: 360px;
+    font-size: 16px;
+}
+
+nav {
+    display: inline-block;
+    position: fixed;
+}
+
+.logo {
+    height: 40px;
+    width: 360px;
+    background-color: #acd373;
+    position: absolute;
+    z-index: -2;
+}
+
+.logo > img {
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.toggle {
+    height: 40px;
+    width: 40px;
+    background-color: #89a85c;
+    margin-left: 320px;
+}
+
+.skyline {
+    height: 350px;
+    width: 360px;
+    background-color: #9abd67;
+}
+
+h1 {
+    font: "ThirstyRoughReg";
+    font-size: 1.3em;
+    font-color: #f7f7f7;
+}

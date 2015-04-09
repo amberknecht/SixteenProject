@@ -1,0 +1,82 @@
+Assets to gather: section background image
+    Use Image > Trim, and File > Save For Web
+
+Page
+    Width: 360px
+    Height: 4650px
+    
+Header font (logo): ThirstyRoughReg
+    Font size: 21px
+    Font weight: regular
+    Effects: drop shadow
+    Line height: 31.5px
+    Color: #f7f7f7
+    Shadow: 
+        Opacity: 25%
+        Angle: 120 degrees
+        Distance: 2px
+        Spread: 53%
+        Size: 0px
+        Color: #000000
+
+Nav light green:
+    Color: #acd373
+    Width: 320px
+    Height: 40px
+    Effects: drop shadow
+    Logo margin-left: 30px
+    Shadow:
+        Opacity: 6%
+        Angle: 120 degrees
+        Distance: 2px
+        Size: 4px
+        Color: #000000
+
+Nav icon:
+    Height: 10px
+    Width: 11px
+    Individual line width: 11px
+    Individual line height: 2px
+
+Nav dark green:
+    Color: #89a85c
+    Height: 40px
+    Width: 40px
+
+Hero unit:
+    Color: #9abd67
+    Section Width: 360px
+    Section Height: 350px
+    Header font: Source Sans Pro Bold
+        Font size: 20px
+        Font weight: Bold
+        Font color: #f7f7f7
+    Header line height: 30px
+    Margin-top: 125px
+    Sub-head font: DroidSerif Italic
+        Font size: 13px
+        Font weight: Regular
+        Font color: #f7f7f7
+        Line height: 19.5px
+    Space between head and sub-head: 18px
+    Image height: 70px
+    Arrow:
+        Color: #f2f2f2
+    
+About section
+    Image height: 209px
+    Image width: 80px
+    Heading margin-top: 295
+    Icon margin-left: 30px
+    Title font: Source Sans Pro Bold
+    Title font size: 18px
+    Paragraph font: Source Sans Pro Bold
+    Paragraph font size: 13px
+    Space between icon and paragraph: 23px
+    Space between paragraph and button: 25px
+    Button font: DroidSerif Italic
+    Button font size: 11px
+    Button width: 90px
+    Button height: 30px
+    Video height: 261px
+    
