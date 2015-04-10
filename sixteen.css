@@ -25,6 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    font-family: sans-serif;
 }
 ol, ul {
 	list-style: none;
@@ -44,11 +45,13 @@ table {
 
 
 /*---------------THIS IS WHERE MY CSS STARTS---------------*/
+
 body {
     width: 360px;
     font-size: 16px;
 }
 
+/*---------------NAVIGATION---------------*/
 nav {
     display: inline-block;
     position: fixed;
@@ -65,7 +68,6 @@ nav {
 .logo > img {
     display: inline-block;
     margin-left: 30px;
-    vertical-align: middle;
 }
 
 .toggle {
@@ -75,14 +77,88 @@ nav {
     margin-left: 320px;
 }
 
+/*---------------HERO---------------*/
 .skyline {
+    background-image: url(hero_silhouette.png);
+    background-size: auto 68px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: inline-block;
     height: 350px;
     width: 360px;
     background-color: #9abd67;
+    text-align: center;
 }
 
 h1 {
-    font: "ThirstyRoughReg";
-    font-size: 1.3em;
-    font-color: #f7f7f7;
+    display: inline-block;
+    font: "Source Sans Pro Bold";
+    font-size: 1.25em;
+    color: #f7f7f7;
+    margin-top: 125px;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font:"Myriad Pro Regular";
+    font-size: .8em;
+    color: #f7f7f7;
+    margin-bottom: 57px;
+}
+
+/*---------------ABOUT---------------*/
+
+.about {
+    background-image: url(about_phone.png);
+    background-size: 80px 209px;
+    background-repeat: no-repeat;
+    background-position: center 0;
+    display: inline-block;
+    height: 761px;
+    width: 360px;
+}
+
+.about > img {
+    display: inline-block;
+    height: 30px;
+    width: 25px;
+    margin-top: 286px;
+    margin-left: 30px;
+}
+
+.about > h3 {
+    display: inline-block;
+    font-size: 1.125em;
+    color: #454545;
+    margin-top: 295px;
+    margin-bottom: 32px;
+    margin-left: 30px;
+}
+
+.about > p {
+    font-size: .8em;
+    color: #454545;
+    margin-left: 30px;
+}
+
+.learnmore {
+    display: inline-block;
+    height: 30px;
+    width: 90px;
+    border: 1px solid #acd373;
+    font-size: .69em;
+    color: #acd373;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-top: 28px;
+}
+
+.video {
+    background-image: url(about_video.png);
+    background-size: auto;
+    display: inline-block;
+    height: 261px;
+    width: 360px;
+    margin-top: 47px;
 }

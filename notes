@@ -1,4 +1,4 @@
-Assets to gather: section background image
+Assets to gather: 
     Use Image > Trim, and File > Save For Web
 
 Page
@@ -63,20 +63,28 @@ Hero unit:
     Arrow:
         Color: #f2f2f2
     
-About section
-    Image height: 209px
-    Image width: 80px
-    Heading margin-top: 295
-    Icon margin-left: 30px
+About section:
+    Phone height: 209px
+    Phone width: 80px
+    Man height: 30px
+    Man width: 25px
+    Man margin-left: 30px
     Title font: Source Sans Pro Bold
     Title font size: 18px
+    Title font color: #454545
+    Title margin-top: 295px
     Paragraph font: Source Sans Pro Bold
     Paragraph font size: 13px
+    Paragraph color: #454545
     Space between icon and paragraph: 23px
     Space between paragraph and button: 25px
     Button font: DroidSerif Italic
     Button font size: 11px
     Button width: 90px
     Button height: 30px
+    Button outline weight: 1px
+    Button outline color: #acd373
     Video height: 261px
+    Video width: 360px
+    Video margin top: 500px
     
