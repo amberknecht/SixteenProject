@@ -162,3 +162,48 @@ h2 {
     width: 360px;
     margin-top: 47px;
 }
+
+.video > img {
+    display: inline-block;
+    margin-top: 97px;
+    margin-left: 140px;
+}
+
+.services {
+    height: 400px;
+    width: 360px;
+}
+
+.services > h3 {
+    font-size: 1.125em;
+    text-align: center;
+    margin-top: 43px;
+    color: #454545;
+}
+
+.services > p {
+    font-size: .75em;
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+
+.services > img {
+    display: inline-block;
+    margin-left: 142px;
+    margin-bottom: 34px;
+}
+
+.serviceslist > ul {
+    display: inline;
+}
+
+.serviceslist > li {
+    display: inline-block;
+    text-align: left;
+}
+
+.serviceslist > p {
+    display: inline-block;
+    font-size: .8125em;
+}
